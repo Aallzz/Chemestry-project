@@ -1,0 +1,72 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{50102234-71E8-40DC-91E5-86BABB976450}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Project1.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Project2.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="D:\Embarcadero\RAD Studio\9.0\lib\sfd2012.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="C:\Users\Alex\Documents\RAD Studio\Projects\Project3.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Project1">
+			<MSBuild Projects="Project1.dproj"/>
+		</Target>
+		<Target Name="Project1:Clean">
+			<MSBuild Projects="Project1.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Project1:Make">
+			<MSBuild Projects="Project1.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Project2">
+			<MSBuild Projects="Project2.dproj"/>
+		</Target>
+		<Target Name="Project2:Clean">
+			<MSBuild Projects="Project2.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Project2:Make">
+			<MSBuild Projects="Project2.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="sfd2012">
+			<MSBuild Projects="D:\Embarcadero\RAD Studio\9.0\lib\sfd2012.dproj"/>
+		</Target>
+		<Target Name="sfd2012:Clean">
+			<MSBuild Projects="D:\Embarcadero\RAD Studio\9.0\lib\sfd2012.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="sfd2012:Make">
+			<MSBuild Projects="D:\Embarcadero\RAD Studio\9.0\lib\sfd2012.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Project3">
+			<MSBuild Projects="C:\Users\Alex\Documents\RAD Studio\Projects\Project3.dproj"/>
+		</Target>
+		<Target Name="Project3:Clean">
+			<MSBuild Projects="C:\Users\Alex\Documents\RAD Studio\Projects\Project3.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Project3:Make">
+			<MSBuild Projects="C:\Users\Alex\Documents\RAD Studio\Projects\Project3.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Project1;Project2;sfd2012;Project3"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Project1:Clean;Project2:Clean;sfd2012:Clean;Project3:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Project1:Make;Project2:Make;sfd2012:Make;Project3:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>

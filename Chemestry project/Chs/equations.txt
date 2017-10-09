@@ -1,0 +1,15 @@
+SiO2 + LiOH = Li2SiO3 + H2O
+LiOH + Cl2O1 = Li2SiO3 + H2O !!!   coeffitiens +index 1
+LiH + H2O = LiOH + H2
+H2O + 2BeH2 = Be(OH)2 + 2H2 !!!  coeffitiens
+2BeO + HNO3 = Be(NO3)2 + H2O !!!  coeffitiens
+H2SO4 + CaO = Ca(SO4) + 0H2O !!!!!  indexes
+3H2SO4 + Al2O3 = Al(SO4)3 + H2O !!!!! indexes
+3H2SO4 + NaOH = NaSO4 +  H2O !!! clesr coeffitiens
+2Mg(OH)2 + HNO3 = Mg(NO3)2 + 2H2O !!! coeffitiens
+NO2 + H2O = 
+MgO + H2O = 
+P2O5 + KOH = K2PO3 + H2O
+KOH + P2O5 = 
+3Sc(OH)3 + HBr = ScBr3 + 3H2O  !!! indexes
+C11H23COOH + C15H28 = 
