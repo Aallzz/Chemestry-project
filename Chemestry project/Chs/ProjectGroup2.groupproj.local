@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<BorlandProject>
-	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.528,C:\Users\Alex\Documents\RAD Studio\Projects\ProjectGroup2.groupproj=D:\Туц\ProjectGroup2.groupproj</Transaction>
-  </Transactions>
-	<Default.Personality>
-		<Projects ActiveProject="D:\Embarcadero\RAD Studio\9.0\lib\sfd2012.dproj"/>
-	</Default.Personality>
-</BorlandProject>
