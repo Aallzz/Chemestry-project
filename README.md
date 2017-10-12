@@ -1,2 +1,2 @@
 # Chemistry-project
-School Chemeitry project (Alexander Petrovski &amp; Denis Latushkin)
+School Chemistry project (Alexander Petrovski &amp; Denis Latushkin)
